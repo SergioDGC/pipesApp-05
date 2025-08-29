@@ -16,3 +16,6 @@ export class NavbarComponent {
     path: route.path??''
   }))
 }
+
+
+//comentario no mas pa probar

@@ -106,5 +106,7 @@ export default class UncommonPageComponent {
   myObservableTimer = interval(2000).pipe(
     map((value)=> value + 1),
     tap((value)=>console.log('tap',value)))
-
 }
+
+
+
